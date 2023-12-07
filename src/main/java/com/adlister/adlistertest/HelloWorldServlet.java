@@ -13,7 +13,8 @@ import static java.lang.System.out;
 
 @WebServlet(name = "HelloWorldServlet", urlPatterns = "/hello")
 public class HelloWorldServlet extends HttpServlet {
-    public int counter;
+    public static int counter;
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
@@ -26,6 +27,7 @@ public class HelloWorldServlet extends HttpServlet {
             out.println("<h1>Hello, " + name + "</h1>");
             counter++;
         }
-        out.println(counter);
+
+        out.println("this page has been seen: " + counter);
     }
 }
