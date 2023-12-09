@@ -1,4 +1,4 @@
-package com.adlister.adlistertest;
+package com.adlister.adlistertest.controller;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
