@@ -12,7 +12,7 @@
     <title>adlister</title>
 </head>
 <body>
-
+<jsp:include page="partials/navbar.jsp" />
 <%=name = request.getParameter("name")%>
 <h1>Welcome To The Site!</h1>
 <p>Path: <%= request.getRequestURL() %></p>
