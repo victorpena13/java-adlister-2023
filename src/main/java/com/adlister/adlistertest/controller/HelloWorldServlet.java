@@ -15,6 +15,11 @@ import static java.lang.System.out;
 public class HelloWorldServlet extends HttpServlet {
     public static int counter;
 
+    public static void reset() {
+        counter=1;
+    }
+
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
@@ -23,6 +28,12 @@ public class HelloWorldServlet extends HttpServlet {
         if(name==null) {
             out.println("<h1>Hello, World</h1>");
             counter++;
+        } else if (name.equals("bgates")) {
+            response.sendRedirect("https://microsoft.com");
+            return;
+        } else if(name.equals("reset")) {
+            out.println("<h1>Hello, World</h1>");
+            reset();
         } else {
             out.println("<h1>Hello, " + name + "</h1>");
             counter++;
