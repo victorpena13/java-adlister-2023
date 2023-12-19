@@ -36,6 +36,8 @@ public class HelloWorldServlet extends HttpServlet {
             reset();
         } else {
             out.println("<h1>Hello, " + name + "</h1>");
+            request.setAttribute("name",name);
+            request.getRequestDispatcher("/index.jsp").forward(request,response);
             counter++;
         }
 
