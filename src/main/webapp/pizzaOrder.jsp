@@ -11,8 +11,21 @@
     <title>pizza-order form</title>
 </head>
 <body>
+<jsp:include page="partials/navbar.jsp" />
+<%! String name; %>
 
 
+<div className="container">
+    <form method="POST" action="/pizzaOrder">
+        <label for="crust">Choose a crust:</label>
+        <select name="crust" id="crust">
+            <option value="thin&crispy">thin & crispy</option>
+            <option value="stuffed_crust">stuffed crust</option>
+            <option value="hand_toss">hand toss</option>
+        </select>
+        <input type="submit" value="submit">
+    </form>
+</div>
 
 
 </body>
