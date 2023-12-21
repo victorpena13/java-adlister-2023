@@ -1,23 +1,29 @@
-<%--
+<%@ page import="static com.adlister.adlistertest.controller.GuessingGameServlet.outcome" %>
+<%@ page import="static com.adlister.adlistertest.controller.GuessingGameServlet.userGuess" %>
+<%@ page import="static com.adlister.adlistertest.controller.GuessingGameServlet.*" %><%--
   Created by IntelliJ IDEA.
   User: victorpena
   Date: 12/19/23
   Time: 10:01 PM
   To change this template use File | Settings | File Templates.
 --%>
-
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<%! String userGuess; %>
+<%--<%! String outcome; %>--%>
 
 <html>
 <head>
-    <title>Title</title>
+    <title>outcome</title>
 </head>
 <body>
-<%= userGuess %>
+<h1>outcome</h1>
+<%= outcome%>
+your guess: <%= userGuess%>
+random number; <%= randomNumber%>
+
+
+
 <jsp:include page="/partials/navbar.jsp" />
 </body>
 </html>
