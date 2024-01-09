@@ -15,7 +15,6 @@
 <h1>Guessing Game</h1>
 
 <form method="POST" action="/guessing-game">
-
 <label for="guess">enter a number between one and three: </label>
 <input type="guess" id="guess" name="guess">
 <input type="submit">

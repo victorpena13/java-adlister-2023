@@ -1,5 +1,6 @@
 package com.adlister.adlistertest.controller;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -37,7 +38,6 @@ public class GuessingGameServlet extends HttpServlet {
             outcome = "no match";
             response.sendRedirect("guessingGame/outcome.jsp");
         }
-
 
     }
 

@@ -1,4 +1,3 @@
-<%@ page import="static com.adlister.adlistertest.controller.GuessingGameServlet.outcome" %>
 <%@ page import="static com.adlister.adlistertest.controller.GuessingGameServlet.userGuess" %>
 <%@ page import="static com.adlister.adlistertest.controller.GuessingGameServlet.*" %><%--
   Created by IntelliJ IDEA.
@@ -10,7 +9,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<%--<%! String outcome; %>--%>
 
 <html>
 <head>
