@@ -4,9 +4,13 @@
 <nav>
     <li><a href="/">Home</a></li>
     <li><a href="/hello">Hello World Servlet</a></li>
+    <li><a href="/hola">Hola Mundo</a></li>
     <li><a href="/login.jsp">Login</a></li>
     <li><a href="/pizzaOrder.jsp">Pizza-Order</a></li>
+    <li><a href="enterColor.jsp">Pick Color</a></li>
     <li><a href="/guessingGame/guess.jsp">Guessing Game</a></li>
+
+
 
 
 
