@@ -11,11 +11,6 @@ import java.io.IOException;
 public class DisplayFavoriteColorServlet extends HttpServlet {
 
 
-//    @Override
-//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//        request.getRequestDispatcher("displayColor.jsp");
-//
-//    }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String color = request.getParameter("color");

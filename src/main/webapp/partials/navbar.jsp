@@ -7,8 +7,10 @@
     <li><a href="/hola">Hola Mundo</a></li>
     <li><a href="/login.jsp">Login</a></li>
     <li><a href="/pizzaOrder.jsp">Pizza-Order</a></li>
-    <li><a href="enterColor.jsp">Pick Color</a></li>
+    <li><a href="/pick-color">Pick Color</a></li>
     <li><a href="/guessingGame/guess.jsp">Guessing Game</a></li>
+    <li><a href="/author">author</a></li>
+
 
 
 

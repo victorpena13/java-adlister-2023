@@ -3,7 +3,6 @@ package com.adlister.adlistertest.model;
 import java.io.Serializable;
 
 public class Album implements Serializable {
-
     private long id;
     private String artist;
     private String record_name;

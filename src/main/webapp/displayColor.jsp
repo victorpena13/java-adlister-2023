@@ -14,6 +14,6 @@
     </style>
 </head>
 <body>
-
+${color}
 </body>
 </html>
